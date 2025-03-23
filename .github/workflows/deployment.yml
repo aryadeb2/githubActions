@@ -1,0 +1,10 @@
+name: Deployment Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello Arya"
+      - name: Print Goodbye
+        run: echo "Hello Goodbye"  
